@@ -53,6 +53,12 @@ body{
     border-bottom: 1px solid rgb(0, 122, 94);
   }
 
+#temp{
+  text-align: center;
+  border-bottom: 0px;
+  padding-top: 40px;
+}
+
   .button{
     margin-top: 10px;
     background-color: rgb(107, 125, 114);
@@ -67,6 +73,8 @@ body{
     font-size: 14px;
     border-radius: 10px;
     transition: all 0.1s linear;
+    font-family: calibri;
+    font-weight: lighter;
   }
 
   .button:hover{
@@ -92,7 +100,6 @@ body{
 
   button{
     font-family: calibri;
-
     font-weight: lighter;
   }
 
