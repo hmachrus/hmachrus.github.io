@@ -112,6 +112,7 @@ body{
 
 #project-link{
   text-align: right;
+  text-decoration: none;
   margin-top: -7px;
   font-size: 10px;
   font-family: arial;
@@ -120,6 +121,13 @@ body{
   font-style: italic;
   transition: 0.25s ease-in;
 }
+
+#project-link a{
+  color: rgba(0, 0, 0, 0.5);
+  transition: 0.25s ease-in;
+}
+
+
 
 #project-det{
   margin-top: 30px;
@@ -173,7 +181,6 @@ body{
 	max-width:300px;
 	z-index:10;
 	margin:24px 14px 7px 12px;
-	border-radius: 5px;
 	/* style and design */
 	padding:4.5px;
 	background:#222; /* fallback if rgba not supported */
