@@ -173,6 +173,7 @@ body{
 	max-width:300px;
 	z-index:10;
 	margin:24px 14px 7px 12px;
+	border-radius: 5px;
 	/* style and design */
 	padding:4.5px;
 	background:#222; /* fallback if rgba not supported */
