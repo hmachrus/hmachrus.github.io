@@ -1,5 +1,5 @@
 body{
-    font-family: quicksand;
+    font-family: 'Quicksand', sans-serif;
   }
 
 .lefty{
@@ -124,9 +124,14 @@ body{
 
 #project-link a{
   color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
   transition: 0.25s ease-in;
 }
 
+#project-link a:hover{
+  color: rgb(50, 122, 94);
+  transition: 0.25s ease-in;
+}
 
 
 #project-det{
